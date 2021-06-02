@@ -6,9 +6,52 @@ body{
 }
 
 .font-primary{
-color : #00ABAE
+color : #00ABAE;
 }
 .title-icon{
     font-size: 20px;
     font-weight: bold;
+}
+/*********
+About*******/
+
+
+#about {
+    margin: 60px auto;
+    max-width: 400px;
+    text-align: center;
+}
+
+#about img{
+    boder-redius: 50px;
+    width: 120px;
+    margin-bottom: 10px;
+}
+
+#about .name{
+    font-size: 19px;
+}
+
+#about .vocation{
+    font-size: 17px;
+    color: #353131;
+    margin-bottom: 10px;
+}
+#about .skills{
+    font-size: 14px;
+    color: #00ABAE;
+    margin-bottom: 10px;
+}
+
+#about .email{
+    margin-top: 14px;
+    font-size : 16px;
+    color: #220bf1;
+}
+#about .icons{
+    margin-top: 20px;
+    font-size: 30px;
+}
+#about .icons a{
+    color:#08010cfa;
 }
